@@ -21,8 +21,6 @@ No diretório `backend`, estão as configurações do SonarQube para análise de
 - Clone este repositório para o seu ambiente local.
 - Substitua o token de acesso no arquivo de configuração conforme necessário.
 
-![Configuração do SonarQube](images/sonarqube-config.png)
-
 ### 2. Fluxo de Trabalho do GitHub Actions
 
 O fluxo de trabalho `deploy.yml` na raiz do repositório realiza as seguintes etapas:
@@ -32,8 +30,6 @@ O fluxo de trabalho `deploy.yml` na raiz do repositório realiza as seguintes et
 - **Instalação de dependências**: Instala as dependências do projeto React localizadas em `frontend/`.
 - **Construção do projeto**: Executa o comando de build da aplicação React.
 - **Deploy para S3**: Sincroniza a pasta `frontend/build` com um bucket S3 na AWS.
-
-![Fluxo de Trabalho do GitHub Actions](images/github-actions.png)
 
 ### 3. Como Usar
 
@@ -75,5 +71,4 @@ Este projeto foi realizado com o auxílio e suporte do [Mauro](https://github.co
 ![Imagem 9](.github/image-9.png)
 
 ## Vídeo que me auxiliou
-
-![Vídeo](https://youtu.be/a9jhz1kuYGc?si=WPl8p-ESuPA1nv26)
+[![Vídeo](https://img.youtube.com/vi/a9jhz1kuYGc/0.jpg)](https://www.youtube.com/watch?v=a9jhz1kuYGc)
