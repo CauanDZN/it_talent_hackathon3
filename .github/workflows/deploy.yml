@@ -22,13 +22,13 @@ jobs:
         run: |
           cd frontend
           npm install
-          cd ..  # Retorna à pasta raiz
+          cd ..
 
       - name: Build project
         run: |
           cd frontend
           npm run build
-          cd ..  # Retorna à pasta raiz
+          cd ..
 
       - name: Deploy to S3
         uses: jakejarvis/s3-sync-action@master
